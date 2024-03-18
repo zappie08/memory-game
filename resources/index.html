@@ -4,11 +4,27 @@
   <meta charset="UTF-8">
   <title>Memory Game</title>
   <link rel="stylesheet" href="style.css"></link>
+  <script src="js/neutralino.js"></script>
   <script src="app.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+
 </head>
 <body>
+   <!-- Define audio elements -->
+   <audio id="wrongsoundEffect" preload="auto">
+      <source src="\audio\wrong-sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <audio id="yaysoundEffect" preload="auto">
+      <source src="\audio\yay-sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
 
+  <!-- Define score and timer elements -->
   <h3>Score:<span id="result"></span></h3>
+  <div id="timer"></div>
+
 
   <div class="grid">
   </div>

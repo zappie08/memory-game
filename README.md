@@ -1,33 +1,41 @@
 # Memory Game
 A retro grid-based game in vanilla JavaScript, HTML and CSS
 
+Based on [Memory Game Tutorial](https://github.com/kubowania/memory-game)
+
 View the full walkthrough [here](https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw) 
 
 Memory Game, also known as the Concentration card game or Matching Game, is a simple card game where you need to match pairs by turn over 2 cards at a time. There are so many versions of it it is hard to in down it's exact origin. There are claims that the famuos writer of Huckleberry Finn, Mark Twain invented his own version. I googled it and whatever it is, it looks more like a way of trying to figure out how much tax you owe rather than match cards.
 
-In this repo, I will be putting extra focus on setting Attributes in JavaScript. If you want to learn how to use setAttritube and getAttribute effectively, please have a look at my code.
+In this repo, I have extended some of the functionality from the forked repo by adding some cool features.
+- 3D flip effect for the cards
+- Sound effects
+- Timer
+- Confetti!!
+- Exit Button
+- Restart Button
 
-I have kept the styling at a bare miniumum for you to go wild and make it your own. Please tag me as I would LOVE to see your game!!!
+These features are build ontop of what previously existed which adds to the fun and experience of playing this game!
 
-## What inbuilt functions are we going to focus on?
-- for loops
-- addEventListener
-- setAttribute
-- getAttribute
-- data-name
-- document.querySelector
-- createElement
 
 ## Rules of Memory Game
 - You will start by flipping over one card
-- If the next card you flip matches, a pop up alert notifies you and you get +1 to your score
+- If the next card you flip matches, a sound alert notifies you and you get +1 to your score
 - These cards then disspear
-- If the next card you flip does not match, a pop up alert notifies you of ths and the cards flip back
+- If the next card you flip does not match, a sound alert notifies you of ths and the cards flip back
 - The game continues until you match all the cards on the board
+
+
+## Future work
+- I have converted the original repo into a neutralinojs project which allows for interaction with the OS. It would be cool to extend some of the functionality of the game to make good use of neutralinojs. I already have implemented an exit button to exit out of the app but further improvments could be made.
+- Caching and optimisation is quite anyoying. Sometimes when playing the game, you might notice that tiles wont load. This is due to caching. I have implemented a function that fetches all images and caches them for future use, however, the memory optimisation is smarter and will discard these images anyway. This needs to be build upon and improved.
+- Altough the tile card faces are supposed to be retro, the surrounding space in the HTML makes the page look empty. Future work could be to rehaul the HTML to make it match the theme of the game.
+
+
 
 ### MIT Licence
 
-Copyright (c) 2020 Ania Kubow
+Copyright (c) 2024 Ania Kubow/Daniel Martinez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

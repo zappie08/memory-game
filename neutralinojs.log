@@ -3,3 +3,9 @@ INFO 2024-03-10 23:50:45,523 Auth info was exported to ./.tmp/auth_info.json api
 INFO 2024-03-10 23:51:40,473 Auth info was exported to ./.tmp/auth_info.json api/debug/debug.cpp:17 danielmartinez@unknown-host
 INFO 2024-03-10 23:56:09,531 Auth info was exported to ./.tmp/auth_info.json api/debug/debug.cpp:17 danielmartinez@unknown-host
 INFO 2024-03-10 23:59:59,298 Auth info was exported to ./.tmp/auth_info.json api/debug/debug.cpp:17 danielmartinez@unknown-host
+INFO 2024-03-18 14:49:39,291 Reloading the application... api\debug\debug.cpp:17 danie@DANIELS-PC
+INFO 2024-03-18 14:49:44,916 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 danie@DANIELS-PC
+ERROR 2024-03-18 14:49:46,994 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico api\debug\debug.cpp:20 danie@DANIELS-PC
+INFO 2024-03-18 14:50:21,451 Reloading the application... api\debug\debug.cpp:17 danie@DANIELS-PC
+INFO 2024-03-18 14:50:28,004 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 danie@DANIELS-PC
+ERROR 2024-03-18 14:50:30,114 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico api\debug\debug.cpp:20 danie@DANIELS-PC
